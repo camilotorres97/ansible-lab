@@ -1,11 +1,2 @@
-[web]
-instance01 ansible_host=
-instance02 ansible_host=
-
-[proxy]
-instance03 ansible_host=
-
-[all:vars]
-# ansible_ssh_private_key_file=secrets/aws.pem
-ansible_become=true
-ansible_user=ec2-user
+[ec2]
+#REPLACE THIS LINE WITH YOUR INSTANCE'S PUBLIC IP
